@@ -1,0 +1,234 @@
+
+.row {
+    padding-left: 28px;;
+    padding-right: 28px;;
+}
+
+body {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.app-container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-header {
+    background-color: #292929;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.logo {
+    border: 1px solid #ffffff;
+    padding: 5px 8px;
+    color: #ffffff;
+    display: inline-block;
+    font-family: serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.hero-section {
+    background-image: url('https://marvel-b1-cdn.bc0a.com/f00000000253249/d1fvos7zvcf2gi.cloudfront.net/venues/1451/photo/medium_3ffd263c89d4018ba5bc926ce7995f7c.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 257px;
+    color: #ffffff;
+    padding-top: 98px;
+    padding-bottom: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-section h1 {
+    color: inherit;
+    max-width: 273px;
+    text-align: center;
+    line-height: 36.46px;
+    font-size: 28px;
+    font-weight: 700;
+    /* border: 1px solid red; */
+}
+
+.app-main {
+    padding-top: 56px;
+    padding-bottom: 50px;
+}
+
+.search-section label {
+    display: block;
+    font-size: 16px;
+    line-height: 20.83px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.search-section input {
+    height: 34px;
+    margin-top: 5px;
+    width: 100%;
+    display: block;
+    border-radius: 0;
+    outline: 0;
+    border: 1px solid #000000;
+    padding: 7px 15px;
+}
+
+.movie-set {
+    /* border: 1px solid blue; */
+    margin-top: 33px;
+}
+
+.movie-category {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.movie-container {
+    margin-top: 26px;
+    /* border: 1px dashed red; */
+    overflow-x: auto;
+    white-space: nowrap;
+    /* margin-left: -28px; */
+    margin-right: -28px;
+}
+
+.movie-card {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    border-radius: 12px;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 23.44px;
+    font-weight: 400;
+    padding: 10px;
+    white-space: normal;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.movie-card span {
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: inherit;
+}
+
+  {
+    /* margin-left: 28px; */
+}
+
+.movie-card + .movie-card {
+    margin-left: 10px;
+}
+
+
+/* ipad pro 11 -1 */
+@media only screen and (min-width: 834px) {
+
+    .app-header {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .logo {
+        /* padding: 14px 19px; */
+        font-size: 24px;
+    }
+
+    .hero-section {
+        padding-top: 109px;
+        padding-bottom: 159px;
+    }
+
+    .hero-section h1 {
+        max-width: 490px;
+        line-height: 93.74px;
+        font-size: 72px;
+        font-weight: 700;
+    }
+
+    .app-main {
+        padding-top: 63px;
+        padding-bottom: 67px;
+    }
+
+    .movie-set {
+        margin-top: 48px;
+    }
+
+    .search-section label {
+        font-size: 24px;
+        line-height: 31.25px;
+    }
+
+        
+    .search-section input {
+        height: 54px;
+        padding: 7px 15px;
+        margin-top: 8px;
+    }
+
+        
+    .movie-container {
+        margin-top: 18px;
+        /* margin-left: -77px; */
+        margin-right: -77px;
+    }
+
+            
+    .movie-card {
+        width: 300px;
+        height: 300px;
+        font-size: 24px;
+        line-height: 31.25px;
+        padding: 15px;
+    }
+
+    .movie-card:first-child {
+        /* margin-left: 77px; */
+    }
+}
+
+
+/* desktop */
+@media only screen and (min-width: 1000px) {
+    .row {
+        padding-left: 77px;
+        padding-right: 77px;
+    }
+
+    .app-header {
+        text-align: left;
+    }
+
+    .hero-section {
+        display: block;
+    }
+
+    .hero-section h1 {
+        text-align: left;
+    }
+
+}
+
